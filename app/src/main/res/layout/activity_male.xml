@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MaleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Prostrate EDIT Quiz"
+            android:textAllCaps="true"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" Tick the appropriate box"
+            android:textAllCaps="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1)"
+                android:layout_margin="16dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="16dp"
+                android:text="Do you often experience a burning sensation while urinating or ejaculating?" />
+
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/rgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/always_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Always"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+            <RadioButton
+                android:id="@+id/often_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Often"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+
+            <RadioButton
+                android:id="@+id/occasionally_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Occasionally"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+            <RadioButton
+                android:id="@+id/seldom_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Seldom"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+            <RadioButton
+                android:id="@+id/never_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Never"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2)"
+                android:layout_margin="16dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="16dp"
+                android:text="Have you observed blood in your urine?" />
+
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/r2group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/yes2_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Yes"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+            <RadioButton
+                android:id="@+id/no2_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="No"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3)"
+                android:layout_margin="16dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="16dp"
+                android:text="Have you observed blood in your semen?" />
+
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/r3group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/yes3_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Yes"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+            <RadioButton
+                android:id="@+id/no3_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="No"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4)"
+                android:layout_margin="16dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="16dp"
+                android:text="Do you experience erectile dysfunction?" />
+
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/r4group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/yes4_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Yes"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+            <RadioButton
+                android:id="@+id/no4_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="No"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5)"
+                android:layout_margin="16dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="16dp"
+                android:text="Do you experience difficulty starting or stopping a stream of urine?" />
+
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/r5group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/yes5_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Yes"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+            <RadioButton
+                android:id="@+id/no5_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="No"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6)"
+                android:layout_margin="16dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="16dp"
+                android:text="Do you experience an inability urinating ehile standing up?" />
+
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/r6group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/yes6_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Yes"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+            <RadioButton
+                android:id="@+id/no6_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="No"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7)"
+                android:layout_margin="16dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="16dp"
+                android:text="Do you weak or decreased flow in your urinary system?" />
+
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/r7group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/yes7_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Yes"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+            <RadioButton
+                android:id="@+id/no7_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="No"
+                android:textAppearance="?android:textAppearanceListItemSmall" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Done"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
